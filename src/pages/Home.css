@@ -1,0 +1,58 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.homeHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.homeHeader a{
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+}
+
+.homeHeader a:hover{
+    text-decoration: underline;
+}
+
+.homeHeaderRight{
+    display: flex;
+    align-items: center;
+     min-width: 13vw;
+     justify-content: space-between;
+}
+
+.homeHeaderRight > .MuiSvgIcon-root{
+    margin-right: 20px;
+}
+
+/* 
+.homeBody img{
+    width:30%;
+    margin-top: 100px ;
+    margin-left: 500px;
+} */
+
+.homeBody{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.homeBody > img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.homeInputContainer > {
+    margin-top: 10px;
+}
+
